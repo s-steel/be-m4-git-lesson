@@ -7,8 +7,8 @@ RSpec.describe Category do
       it { should validate_uniqueness_of(:title) }
     end
 
-    describe "relationship" do
-      it { should have_many(:items) }
-    end
+    # describe "relationship" do
+    #   it { should have_many(:items) }
+    # end
   end
 end
